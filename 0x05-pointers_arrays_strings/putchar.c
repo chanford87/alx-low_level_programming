@@ -5,9 +5,9 @@
  * @c : Le personnage à imprimer
  *
  * Retour: Sur le succès 1.
- * En cas d’erreur, -1 est renvoyé et errno est défini de manière appropriée.
+ * En cas d’erreur, -1 est renvoyé
  */
 int _putchar(char c)
 {
-retour (écriture(1, &c, 1));
+	retour(écriture(1, &c, 1));
 }
