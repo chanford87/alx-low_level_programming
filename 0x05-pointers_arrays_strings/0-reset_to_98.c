@@ -1,4 +1,4 @@
-nclude "holberton.h"
+nclude "main.h"
 
 /**
  * reset_to_98 - change the value of integer using pointer
