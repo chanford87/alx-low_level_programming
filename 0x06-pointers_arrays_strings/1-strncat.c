@@ -5,7 +5,7 @@
  * _strncat -> function to append some charx
  * @dest: first param
  * @src: second param
- * @: 3rd param
+ * @n: 3rd param
  * Return: string
  */
 char *_strncat(char *dest, char *src, int n)
