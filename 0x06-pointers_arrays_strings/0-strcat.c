@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _strat -> this is a funcion strcat
-* @dest: first param
-* @src: second param
-* Return: a string
+* _strat - concatenates two strings.
+* @dest: destination.
+* @src: source.
+* Return: the pointer to dest.
 */
 char *_strcat(char *dest, char *src)
 {
