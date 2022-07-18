@@ -6,17 +6,22 @@
 * @src: second param
 * Return: a string
 */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
 {
-	int i, n;
+	int count = o, count2 = 0;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	while (*(dest + count) != '\0')
 	{
+		count++;
 	}
 
-	for (n = 0; (dest[i + n] = *src++) != '\0'; n++)
+	while (count >= 0)
 	{
+		*(dest + count) = *(scr + count2);
+		if (*(scr + count2) == '\0')
+			break;
+		count++;
+		count2++;
 	}
-
 	return (dest);
 }
