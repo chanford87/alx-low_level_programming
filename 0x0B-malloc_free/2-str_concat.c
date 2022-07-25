@@ -1,4 +1,4 @@
-#include "mzin.h"
+#include "main.h"
 
 /**
  * str_concat -> string concatinating function
